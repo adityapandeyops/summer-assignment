@@ -15,7 +15,7 @@ public class q2 {
 
             System.out.println("Reverse of a number : " +rev);
 
+            sc.close();
     }
-
     
 }
