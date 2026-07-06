@@ -12,7 +12,7 @@ public class q3 {
              fac = i*fac;
              System.out.println(fac);
         }
-
+        sc.close();
     
 
     }
