@@ -15,6 +15,7 @@ public class q1 {
             num=num/10;
         }
         System.out.println(sum);
+        sc.close();
     }
 
     
