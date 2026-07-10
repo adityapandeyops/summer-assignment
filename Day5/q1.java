@@ -12,10 +12,10 @@ public class q1 {
             }
         }
         if(sum==n){
-            System.out.println("Perfect number");
+            System.out.println("Perfect number") ;
         }
         else{
-            System.out.println("Not Perfect number");
+            System.out.println("Not Perfect number") ;
         }
         sc.close();
     }
