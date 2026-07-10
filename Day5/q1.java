@@ -1,3 +1,4 @@
+package Day5;
 import java.util.*;
 // Perfect number
 public class q1 {
