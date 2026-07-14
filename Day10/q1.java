@@ -1,6 +1,6 @@
 package Day10;
 import java.util.*;
-// Program to print star pyramid (half diamond pyramid)
+// Program to print star pyramid (half diamond pattern)
 public class q1 {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
