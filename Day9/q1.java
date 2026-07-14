@@ -1,19 +1,21 @@
-package Day8;
+package Day9;
 import java.util.*;
-//  Star(*) pattern (Half pyramid pattern)
+//Reverse star pattern
 public class q1 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        int n = 5;
-        // outer loop 
+        System.out.print("Enter a number : ");
+        int n=sc.nextInt();
+        // outer loop
         for(int i=1; i<=n; i++){
-            // inner loop
-            for (int j=1; j<=i;j++){
+            //inner loop
+            for(int j=n; j>=i; j--){
                 System.out.print("*");
             }
             System.out.println();
         }
         sc.close();
+
     }
     
 }
