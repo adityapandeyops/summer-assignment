@@ -3,7 +3,7 @@ import java.util.*;
 // write Function for Palindrome
 public class q1 {
     public static int Palindrome(int n){
-        int temp = n;
+        int temp =n;
         int rev=0;
         while(n>0){
             int rem= n%10;
