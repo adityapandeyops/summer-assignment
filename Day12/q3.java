@@ -16,8 +16,9 @@ public class q3 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of a terms: ");
         int n=sc.nextInt();
-        fibonacci(n);
+             fibonacci(n);
         sc.close();
+       
     }
     
 }
