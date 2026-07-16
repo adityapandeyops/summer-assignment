@@ -1,5 +1,28 @@
 package Day11;
-
+import java.util.*;
+// Function to check prime
 public class q3 {
+    public static boolean isPrime(int n){
+        int count =0;
+        for(int i=1; i<=n; i++){
+            if(n%i==0){
+                count++;
+            }
+
+        }
+        return count==2;
+    }
+    public static void main(String args[]){
+        Scanner sc= new Scanner(System.in);
+        System.out.print("Enter a number : ");
+        int n=sc.nextInt();
+        if(isPrime(n)){
+            System.out.println("Prime number");
+        }
+        else{
+            System.out.println("Not a Prime number");
+        }
+        sc.close();
+    }
     
 }
