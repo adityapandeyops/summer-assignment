@@ -4,7 +4,7 @@ import java.util.*;
 public class q1 {
     
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
 
         System.out.print("Enter a string: ");
         String str = sc.nextLine();
@@ -25,6 +25,7 @@ public class q1 {
         }
 
         System.out.println("No non-repeating character found.");
+        sc.close();
     }
 }
     
