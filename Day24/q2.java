@@ -1,6 +1,6 @@
 package Day24;
 import java.util.*;
-// import java.util.Scanner;
+// wap to compress a string.
 public class q2 {
     
     public static void main(String[] args) {
